@@ -1,0 +1,142 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+a:hover{
+    color: #EAF6F6;
+}
+
+p{
+    letter-spacing: 1px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+}
+
+.skill-list{
+    list-style: none;
+    line-height: 2;
+    margin: auto;
+    font-weight: bold;
+}
+
+
+.nav{
+    background-color: #E4F9F5;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    padding-top: 32px;
+    position: relative;
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+
+.computer-image{
+    border-radius: 100%;
+}
+
+.machine-learning{
+    border-radius: 100%;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+.middle-container{
+    margin: 75px 0px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0px 20px 0px;
+    margin-top: 6rem;
+
+}
+
+
+
+.top-cloud{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 10%;
+    bottom: 40%;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.copyright{
+    color: #EAF6F6;
+    /* font-size: 0.75rem; */
+    margin-top: 50px;
+}
+
+.contact-me-paragraph{
+    margin-bottom: 4rem;
+}
