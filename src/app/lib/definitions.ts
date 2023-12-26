@@ -4,10 +4,10 @@
 // However, these types are generated automatically if you're using an ORM such as Prisma.
 export type Experience = {
     id: Number;
-    companyName: string;
+    companyLogo: string;
     role: string;
-    startDate: Date;
-    endDate: Date;
+    startDate: string;
+    endDate: string;
     description: string;
     skills: [];
 };

@@ -31,7 +31,6 @@ function LandingPage() {
           </button>
         </div>
       </div>
-      <hr className='mx-24'/>  
     </>
   )
 }
