@@ -6,7 +6,7 @@ const {experiences} = require("../../lib/placeholder-data") ;
 
 const Experiencce = () => {
     return(
-        <div className="max-w-6xl m-auto mt-24 text-gray-200">
+        <div className="max-w-6xl m-auto mt-24 text-gray-200" id="experience">
           {experiences.map((experience: Experience) => (
             <> 
               <div key={experience.id.toString()} className="border-y-[1px] border-slate-500">
