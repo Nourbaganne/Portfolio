@@ -22,13 +22,14 @@ function LandingPage() {
             Driven by a passion for innovation, I specialize in developing <span className='font-bold'>high-performance applications</span> that push the boundaries of what is possible. I am always eager to explore new opportunities and tackle fresh challenges in the dynamic realm of software engineering. <a href="#" className='underline decoration-2 font-bold'>Let&apos;s connect</a> and bring your ideas to life through the power of code!
             </p>
         </div>
-        <div className='flex flex-row'>
-          <button type="button" className="text-white bg-gradient-to-r from-purple-500 via-purple-600 to-purple-700 hover:bg-gradient-to-br font-medium rounded-lg text-sm py-2.5 text-center me-2 mb-2 w-32 sm:w-48">Github</button>
-          <button className="inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-light rounded-lg group bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 text-white">
-            <span className="py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0 text-lg w-32 sm:w-48">
-            Resume
-            </span>
-          </button>
+        <div className=' flex items-center justify-center gap-6'>
+          <a href="https://github.com/Nourbaganne" target='_blank'>
+            <button type="button" className="inline-flex items-center justify-center ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary h-10 px-4 bg-gradient-to-r text-black from-purple-500 via-purple-700 to-purple-900 w-32 sm:w-48 font-light py-3 sm:py-6 rounded text-base sm:text-lg hover:scale-[1.05] transition duration-500 hover:bg-white">Github</button>
+          </a>
+
+          <a href="/cv-nour-baganne.pdf" download>
+            <button className="inline-flex items-center justify-center ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-10 px-4 bg-transparent text-white w-32 sm:w-48 font-light py-3 sm:py-6 rounded text-base sm:text-lg hover:border-slate-300 transition duration-500 border-[1px] border-slate-600">Resume</button>
+          </a>
         </div>
       </div>
     </>
