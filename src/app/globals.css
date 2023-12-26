@@ -21,3 +21,11 @@
   box-shadow: inset 0 0 12px #bf97ff70;
 }
 
+.navBar {
+  transition: transform 1s ease;
+}
+
+.hideNav {
+  transform: translateY(-100%);
+}
+

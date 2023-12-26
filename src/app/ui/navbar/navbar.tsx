@@ -1,10 +1,52 @@
-// import { Socials } from "@/constants";
+'use client';
+
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
+import clsx from 'clsx';
+
 
 const Navbar = () => {
+  const [scrollData, setScrollData] = useState({
+    y: 0,
+    lastY: 0
+  });
+
+  const [showNav, setShowNav] = useState(true);
+
+  useEffect(() => {
+
+    const handleScroll = () => {
+      setScrollData(prevState => {
+        return {
+          y: window.scrollY,
+          lastY: prevState.y
+        }
+      })
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  useEffect(() => {
+    
+    if(scrollData.y > scrollData.lastY){
+      setShowNav(false);
+    } else {
+      setShowNav(true);
+    }
+    
+  }, [scrollData])
+
   return (
-    <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] z-50 px-5">
+    <div className={clsx(
+      "w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] z-50 backdrop-blur-sm flex p-3 sm:p-6  border-b-[#24242E] px-6 sm:px-12  border-b-[1px]",
+      {
+        'navBar': showNav,
+        'navBar hideNav': !showNav
+      }
+    )}>
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <div className="h-auto w-auto flex flex-row items-center">
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">

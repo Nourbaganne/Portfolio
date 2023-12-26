@@ -9,5 +9,6 @@ export type Experience = {
     startDate: string;
     endDate: string;
     description: string;
+    url: string;
     skills: [];
 };
