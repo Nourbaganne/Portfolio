@@ -1,6 +1,5 @@
 'use client'
 
-import Image from 'next/image'
 import LandingPage from './ui/landingPage/landingPage';
 import Experiencce from './ui/experience/experience'
 import Timeline from './ui/timeline/timeline';
