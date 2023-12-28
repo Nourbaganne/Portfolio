@@ -3,13 +3,13 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 const {education} = require("../../lib/placeholder-data");
 
-const Timeline = () => {
+const Education = () => {
   return (
     <div className="max-w-6xl m-auto mt-24 text-gray-200" id="education">
       <div className='bg-gradient-to-r text-transparent from-purple-500 via-purple-700 to-purple-900 bg-clip-text'>
-        <h1 className='text-5xl font-medium text-center mb-5'>Education</h1>
+        <h1 className='text-5xl font-medium text-center mb-3'>Education</h1>
         <div className='flex justify-center'>
-          <hr className='mb-16 w-10 border-none	h-0.5 bg-gradient-to-r from-purple-600 via-purple-700 to-purple-900'/>
+          <hr className='mb-16 w-20 border-none	h-0.5 bg-gradient-to-r'/>
         </div>
       </div>
       <VerticalTimeline>
@@ -52,4 +52,4 @@ const Timeline = () => {
   );
 }
 
-export default Timeline;
+export default Education;

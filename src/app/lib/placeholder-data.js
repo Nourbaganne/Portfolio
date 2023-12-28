@@ -46,7 +46,7 @@ const education = [
     universityName: 'ISSAT Sousse',
     startDate: 'September 2018',
     endDate: 'July 2021',
-    description: "I'm also engaged in advanced studies towards a research master's degree in AI for healthcare. This academic pursuit encompasses a comprehensive exploration of artificial intelligence, machine learning, and healthcare-related subjects",
+    description: "Prior to pursuing my master's degree in IT and engineering, my academic focus was in electromechanics. However, I found that it didn't resonate with my interests and aspirations, prompting me to switch fields. Now, I am dedicated to my current path, specializing in web development.",
   },
 ];
 

@@ -4,7 +4,7 @@ import Image from 'next/image'
 function LandingPage() {
   return (
     <>
-      <div className=' max-w-6xl m-auto min-h-screen sm:min-h-[900px] flex flex-col items-center justify-center gap-8'>
+      <div className=' max-w-6xl m-auto min-h-screen sm:min-h-[900px] flex flex-col items-center justify-center gap-8' id='about'>
         <h1 className="text-3xl md:text-7xl text-center font-extrabold bg-gradient-to-r text-transparent from-[#95dff1] to-[#3F0071] bg-clip-text">
           Software engineer &
           <br className='hidden sm:block'/>

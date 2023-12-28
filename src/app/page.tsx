@@ -2,7 +2,8 @@
 
 import LandingPage from './ui/landingPage/landingPage';
 import Experiencce from './ui/experience/experience'
-import Timeline from './ui/timeline/timeline';
+import Education from './ui/education/education';
+import Contact from './ui/contact/contact';
 
 
 export default function Home() {
@@ -11,8 +12,8 @@ export default function Home() {
       <main className='z-20 relative top-20'>
         <LandingPage />
         <Experiencce />
-        <Timeline />
-        
+        <Education />
+        <Contact />
       </main>
     </>
   )

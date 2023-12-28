@@ -62,22 +62,24 @@ const Navbar = () => {
 
         <div className="w-[500px] h-full flex flex-row items-center justify-between">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-50">
+            <a href="#about" className="cursor-pointer hover:text-gray-300 hover:translate-y-1">
+              About Me
+            </a>
             <a href="#experience" className="cursor-pointer hover:text-gray-300 hover:translate-y-1">
               Experience
             </a>
             <a href="#education" className="cursor-pointer hover:text-gray-300 hover:translate-y-1">
               Education
             </a>
-            <a href="#projects" className="cursor-pointer hover:text-gray-300 hover:translate-y-1">
-              Projects
-            </a>
           </div>
         </div>
 
         <div className="flex flex-row">
-          <button className="py-2 hidden md:block px-3 button-primary text-center text-white cursor-pointer rounded-lg min-w-max">
-            Let&apos;s Talk!
-          </button>
+          <a href="#contact">
+            <button className="py-2 hidden md:block px-3 button-primary text-center text-white cursor-pointer rounded-lg min-w-max">
+              Let&apos;s Talk!
+            </button>
+          </a>
         </div>
       </div>
     </div>
